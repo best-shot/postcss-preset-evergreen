@@ -1,0 +1,70 @@
+{
+  "name": "postcss-preset-evergreen",
+  "version": "0.0.0",
+  "description": "A `postcss` preset for modern css syntaxes",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Chen",
+    "email": "airkro@qq.com"
+  },
+  "keywords": [
+    "css",
+    "evergreen",
+    "postcss",
+    "preset",
+    "style",
+    "transform"
+  ],
+  "homepage": "https://github.com/best-shot/postcss-preset-evergreen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/best-shot/postcss-preset-evergreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/best-shot/postcss-preset-evergreen/issues"
+  },
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "format": "nice-move lint",
+    "test": "ava --verbose"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-media-minmax": "^4.0.0",
+    "postcss-selector-not": "^4.0.0",
+    "postcss-will-change": "^3.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@nice-move/cli": "^0.5.5",
+    "@nice-move/eslint-config-base": "^0.3.16",
+    "@nice-move/prettier-config": "^0.3.4",
+    "ava": "^3.13.0",
+    "eslint": "^6.8.0",
+    "husky": "^4.3.0",
+    "outdent": "^0.7.1",
+    "postcss": "^7.0.35",
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "postcss": "^7.0.35"
+  },
+  "engines": {
+    "node": "^10.18 || ^12.14 || ^14"
+  },
+  "commitlint": {
+    "extends": "@commitlint/config-conventional"
+  },
+  "eslintConfig": {
+    "extends": "@nice-move/eslint-config-base"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "nice-move lint && ava --verbose"
+    }
+  },
+  "prettier": "@nice-move/prettier-config"
+}
