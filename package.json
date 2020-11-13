@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -11,8 +11,10 @@
     "css",
     "evergreen",
     "postcss",
+    "postcss-plugin",
     "preset",
     "style",
+    "syntax",
     "transform"
   ],
   "homepage": "https://github.com/best-shot/postcss-preset-evergreen",
@@ -31,7 +33,16 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "postcss-clamp": "^1.1.0",
+    "postcss-color-functional-notation": "^3.0.2",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-font-variant": "^4.0.1",
+    "postcss-gap-properties": "^2.0.0",
     "postcss-media-minmax": "^4.0.0",
+    "postcss-overflow-shorthand": "^2.0.0",
+    "postcss-page-break": "^2.0.0",
+    "postcss-place": "^5.0.0",
+    "postcss-replace-overflow-wrap": "^3.0.0",
     "postcss-selector-not": "^4.0.0",
     "postcss-will-change": "^3.0.0"
   },
@@ -44,7 +55,6 @@
     "ava": "^3.13.0",
     "eslint": "^6.8.0",
     "husky": "^4.3.0",
-    "outdent": "^0.7.1",
     "postcss": "^7.0.35",
     "prettier": "^2.1.2"
   },

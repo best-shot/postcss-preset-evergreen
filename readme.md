@@ -16,7 +16,16 @@ A [postcss] preset for modern css syntaxes.
 This preset includes the following packages:
 
 - autoprefixer
+- postcss-clamp
+- postcss-color-functional-notation
+- postcss-flexbugs-fixes
+- postcss-font-variant
+- postcss-gap-properties
 - postcss-media-minmax
+- postcss-overflow-shorthand
+- postcss-page-break
+- postcss-place
+- postcss-replace-overflow-wrap
 - postcss-selector-not
 - postcss-will-change
 
