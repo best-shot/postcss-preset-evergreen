@@ -14,7 +14,6 @@ jobs:
           - windows-latest
           - ubuntu-latest
         node:
-          - 10.18.0
           - 12.18.0
           - 14.0.0
     runs-on: ${{ matrix.os }}
