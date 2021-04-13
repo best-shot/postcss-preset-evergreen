@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -25,46 +25,47 @@
   "bugs": {
     "url": "https://github.com/best-shot/postcss-preset-evergreen/issues"
   },
-  "main": "index.js",
+  "main": "index.cjs",
   "files": [],
   "scripts": {
     "format": "nice-move lint",
+    "lint": "nice-move lint",
+    "prepublishOnly": "nice-move lint && ava --fail-fast",
     "test": "ava --verbose"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-clamp": "^1.1.0",
-    "postcss-color-functional-notation": "^3.0.2",
-    "postcss-flexbugs-fixes": "^4.2.1",
-    "postcss-font-variant": "^4.0.1",
-    "postcss-gap-properties": "^2.0.0",
-    "postcss-media-minmax": "^4.0.0",
-    "postcss-overflow-shorthand": "^2.0.0",
-    "postcss-page-break": "^2.0.0",
-    "postcss-place": "^5.0.0",
-    "postcss-replace-overflow-wrap": "^3.0.0",
-    "postcss-selector-not": "^4.0.1",
-    "postcss-will-change": "^3.0.0"
+    "autoprefixer": "^10.2.5",
+    "postcss-clamp": "^2.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-font-variant": "^5.0.0",
+    "postcss-media-minmax": "^5.0.0",
+    "postcss-page-break": "^3.0.4",
+    "postcss-replace-overflow-wrap": "^4.0.0",
+    "postcss-selector-not": "^5.0.0",
+    "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.10",
-    "@nice-move/commitlint-config": "^0.0.0",
-    "@nice-move/eslint-config-base": "^0.5.0",
-    "@nice-move/prettier-config": "^0.3.5",
-    "ava": "^3.14.0",
-    "commitlint": "^11.0.0",
-    "eslint": "^7.16.0",
-    "husky": "^4.3.6",
-    "postcss": "^7.0.35",
+    "@nice-move/cli": "^0.5.21",
+    "@nice-move/commitlint-config": "^0.1.2",
+    "@nice-move/eslint-config-base": "^0.5.30",
+    "@nice-move/prettier-config": "^0.4.3",
+    "ava": "^3.15.0",
+    "commitlint": "^12.1.1",
+    "eslint": "^7.24.0",
+    "eslint-plugin-ava": "^12.0.0",
+    "garou": "^0.1.21",
+    "husky": "^4.3.8",
+    "postcss": "^8.2.10",
     "prettier": "^2.2.1"
   },
   "peerDependencies": {
-    "postcss": "^7.0.35"
+    "postcss": "^8.2.10"
   },
   "engines": {
-    "node": "^10.18 || ^12.18 || ^14"
+    "node": "^12.15.0 || ^14.15.3"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "commitlint": {
@@ -76,7 +77,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "nice-move lint && ava --verbose"
+      "pre-commit": "nice-move lint && ava --fail-fast"
     }
   },
   "prettier": "@nice-move/prettier-config"
