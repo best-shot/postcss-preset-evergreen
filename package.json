@@ -30,6 +30,7 @@
   "scripts": {
     "format": "nice-move lint",
     "lint": "nice-move lint",
+    "prepare": "git config core.hooksPath .hooks",
     "prepublishOnly": "nice-move lint && ava --fail-fast",
     "test": "ava --verbose"
   },
@@ -47,19 +48,18 @@
   "devDependencies": {
     "@nice-move/cli": "^0.5.21",
     "@nice-move/commitlint-config": "^0.1.2",
-    "@nice-move/eslint-config-base": "^0.5.30",
+    "@nice-move/eslint-config-base": "^0.5.35",
     "@nice-move/prettier-config": "^0.4.3",
     "ava": "^3.15.0",
     "commitlint": "^12.1.1",
-    "eslint": "^7.24.0",
+    "eslint": "^7.26.0",
     "eslint-plugin-ava": "^12.0.0",
-    "garou": "^0.1.21",
-    "husky": "^4.3.8",
-    "postcss": "^8.2.10",
-    "prettier": "^2.2.1"
+    "garou": "^0.1.28",
+    "postcss": "^8.2.14",
+    "prettier": "^2.3.0"
   },
   "peerDependencies": {
-    "postcss": "^8.2.10"
+    "postcss": "^8.2.14"
   },
   "engines": {
     "node": "^12.15.0 || ^14.15.3"
@@ -73,12 +73,6 @@
   },
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "nice-move lint && ava --fail-fast"
-    }
   },
   "prettier": "@nice-move/prettier-config"
 }
