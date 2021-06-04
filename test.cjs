@@ -40,7 +40,6 @@ test('stage 3', async (t) => {
       @media screen and (min-width: 500px) and (max-width: 1200px) {
         body {
           font-feature-settings: 'kern';
-          -webkit-font-kerning: normal;
           font-kerning: normal;
           /* */
           gap: 20px;
