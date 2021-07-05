@@ -376,13 +376,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@nice-move/cli@0.5.26":
-  version "0.5.26"
-  resolved "https://registry.yarnpkg.com/@nice-move/cli/-/cli-0.5.26.tgz#6f04bb41272127fdbfd6d1b9a4de6711c085fea7"
-  integrity sha512-CNLmD9kOnpEwVlbYRTq+KTRlxzUWIXHrHWpqCCuzGC7NAZpBR22I9dHaGJ2eEJXyKJFhJhM/w93LGbZxeilnjw==
+"@nice-move/cli@0.5.27":
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/@nice-move/cli/-/cli-0.5.27.tgz#585464cb712d4bc90ae4f62c1962d65c4dc0b4e2"
+  integrity sha512-aXcFLw1QQFTI4Ixk8zrRE9T1v2/Fh6PzhrOFhlwjgXA83cMNra2vi36l9EA60yP4nlR/jUwSvLPw46jCFdKG4w==
   dependencies:
-    "@nice-move/init" "^0.3.0"
-    "@nice-move/lint" "^0.3.0"
+    "@nice-move/init" "^0.3.1"
+    "@nice-move/lint" "^0.3.1"
     cheetor "^0.10.2"
     execa "^5.1.1"
 
@@ -408,10 +408,10 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^33.0.1"
 
-"@nice-move/init@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@nice-move/init/-/init-0.3.0.tgz#1af2a337f356d74c7cd5f4589e5cd87ae32bf3bd"
-  integrity sha512-8WfsuCgv0rQAR3atlTBJtrQlCQzsqk1ojjbdyekB7QA2mom8IXlLxQdW4KxWj8qICrvVWRTllf+lpozQ5UU2Uw==
+"@nice-move/init@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@nice-move/init/-/init-0.3.1.tgz#5d7c4691842a4e036db1626ae483e882e34c8edf"
+  integrity sha512-7sMBeUWdZjgqxsEkzO69LbEKk4ENhQOln8WovEQ/ABBPu9bbmkI5Uenhevgf5JEVexRzR0lPexTkFXkXtMFtqA==
   dependencies:
     centra "^2.4.2"
     chalk "^4.1.1"
@@ -430,10 +430,10 @@
     validate-npm-package-name "^3.0.0"
     yarn-install "^1.0.0"
 
-"@nice-move/lint@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@nice-move/lint/-/lint-0.3.0.tgz#b2ee9fc24b132af41daea70718467c24242c1cfa"
-  integrity sha512-cMXkOrIM5vXF1CRZH6QIhX6MP/4bg1NX7M0fqklMTx+IEcdeL2qxJaXiVxyXvaHFDtxM5MlmySdLdSXAocb1QQ==
+"@nice-move/lint@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@nice-move/lint/-/lint-0.3.1.tgz#7b2ccfa006fcc2779980b9dc5cb25599349d58ff"
+  integrity sha512-ehj+WdYVpSaAdNZF3qGteUmGyVFXW6mY/xnte1pUBrgvDYbX9rFercAGFdJua6HGupCgzqRyhRlPlBNQTCpszg==
   dependencies:
     eslint-formatter-pretty "^4.1.0"
     fs-chain "^8.0.1"
