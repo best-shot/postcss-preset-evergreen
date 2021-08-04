@@ -45,15 +45,15 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "0.5.27",
+    "@nice-move/cli": "0.5.28",
     "@nice-move/commitlint-config": "^0.1.4",
-    "@nice-move/eslint-config-base": "0.5.56",
+    "@nice-move/eslint-config-base": "0.5.58",
     "@nice-move/prettier-config": "0.4.13",
     "ava": "^3.15.0",
     "commitlint": "^12.1.4",
     "eslint": "^7.31.0",
     "eslint-plugin-ava": "^12.0.0",
-    "garou": "^0.1.38",
+    "garou": "^0.1.39",
     "postcss": "8.3.6",
     "prettier": "2.3.2"
   },
