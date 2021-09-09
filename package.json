@@ -47,7 +47,7 @@
   "devDependencies": {
     "@nice-move/cli": "0.5.29",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "0.5.60",
+    "@nice-move/eslint-config-base": "0.5.61",
     "@nice-move/prettier-config": "0.4.14",
     "ava": "^3.15.0",
     "commitlint": "^12.1.4",
