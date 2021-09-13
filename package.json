@@ -47,7 +47,7 @@
   "devDependencies": {
     "@nice-move/cli": "0.5.29",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "0.5.61",
+    "@nice-move/eslint-config-base": "0.5.62",
     "@nice-move/prettier-config": "0.4.14",
     "ava": "^3.15.0",
     "commitlint": "^12.1.4",
@@ -55,7 +55,7 @@
     "eslint-plugin-ava": "^12.0.0",
     "garou": "^0.1.40",
     "postcss": "8.3.6",
-    "prettier": "2.3.2"
+    "prettier": "2.4.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.5"
