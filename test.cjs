@@ -27,6 +27,10 @@ function css([string]) {
 test('stage 3', async (t) => {
   await runner(t)(
     css`
+      div {
+        display: grid;
+        gap: 20px;
+      }
       @media screen and (width >= 500px) and (width <= 1200px) {
         body {
           font-kerning: normal;
@@ -41,6 +45,11 @@ test('stage 3', async (t) => {
       }
     `,
     css`
+      div {
+        display: grid;
+        grid-gap: 20px;
+        gap: 20px;
+      }
       @media screen and (min-width: 500px) and (max-width: 1200px) {
         body {
           font-feature-settings: 'kern';
@@ -81,6 +90,7 @@ test('stage 2', async (t) => {
         overflow: hidden auto;
         /* */
         word-wrap: break-word;
+        overflow-wrap: break-word;
         /* */
         align-self: center;
         justify-self: center;

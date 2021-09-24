@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -39,6 +39,7 @@
     "postcss-color-functional-notation": "4.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
+    "postcss-gap-properties": "^3.0.0",
     "postcss-media-minmax": "^5.0.0",
     "postcss-overflow-shorthand": "3.0.0",
     "postcss-page-break": "^3.0.4",
@@ -78,7 +79,6 @@
   },
   "prettier": "@nice-move/prettier-config",
   "todos": [
-    "postcss-gap-properties",
     "postcss-is-pseudo-class",
     "postcss-custom-properties",
     "postcss-css-variables"
