@@ -24,10 +24,10 @@ This preset includes the following packages:
 - postcss-replace-overflow-wrap
 - postcss-selector-not
 - postcss-will-change
-  <!-- - postcss-color-functional-notation -->
+- postcss-color-functional-notation
+- postcss-overflow-shorthand
+- postcss-place
   <!-- - postcss-gap-properties -->
-  <!-- - postcss-overflow-shorthand -->
-  <!-- - postcss-place -->
 
 ## Installation
 

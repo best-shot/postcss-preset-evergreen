@@ -1,3 +1,5 @@
+'use strict';
+
 const test = require('ava').default;
 const postcss = require('postcss');
 const { format } = require('prettier');
@@ -30,6 +32,8 @@ test('stage 3', async (t) => {
           font-kerning: normal;
           /* */
           gap: 20px;
+          column-gap: 40px;
+          row-gap: 20px;
           /* */
           break-inside: avoid;
           break-after: page;
@@ -43,6 +47,9 @@ test('stage 3', async (t) => {
           font-kerning: normal;
           /* */
           gap: 20px;
+          -moz-column-gap: 40px;
+          column-gap: 40px;
+          row-gap: 20px;
           /* */
           page-break-inside: avoid;
           -moz-column-break-inside: avoid;
@@ -69,10 +76,14 @@ test('stage 2', async (t) => {
     `,
     css`
       p:not(:first-child):not(.special) {
+        overflow-x: hidden;
+        overflow-y: auto;
         overflow: hidden auto;
         /* */
         word-wrap: break-word;
         /* */
+        align-self: center;
+        justify-self: center;
         place-self: center;
       }
     `,
@@ -90,7 +101,7 @@ test('stage 1', async (t) => {
     `,
     css`
       body {
-        color: rgb(178 34 34);
+        color: rgb(178, 34, 34);
         /* */
         width: max(10px, min(4em, 80px));
       }
