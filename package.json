@@ -51,10 +51,10 @@
   "devDependencies": {
     "@nice-move/cli": "^0.5.29",
     "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "^0.5.62",
+    "@nice-move/eslint-config-base": "^0.5.63",
     "@nice-move/prettier-config": "^0.4.14",
     "ava": "^3.15.0",
-    "commitlint": "^13.1.0",
+    "commitlint": "^13.2.0",
     "eslint": "^7.32.0",
     "eslint-plugin-ava": "^12.0.0",
     "garou": "^0.1.40",
