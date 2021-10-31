@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -29,12 +29,12 @@
   "files": [],
   "scripts": {
     "lint": "nice-move lint",
-    "prepare": "git config core.hooksPath .hooks",
-    "prepublishOnly": "nice-move lint && ava --fail-fast",
+    "prepare": "git config core.hooksPath .githooks",
+    "prepublishOnly": "npm run lint && npm test",
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "autoprefixer": "^10.3.7",
+    "autoprefixer": "^10.4.0",
     "postcss-clamp": "^2.0.0",
     "postcss-color-functional-notation": "4.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -49,23 +49,23 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.29",
-    "@nice-move/commitlint-config": "^0.2.0",
-    "@nice-move/eslint-config-base": "^0.5.63",
-    "@nice-move/prettier-config": "^0.4.14",
+    "@nice-move/cli": "^0.5.32",
+    "@nice-move/commitlint-config": "^0.2.2",
+    "@nice-move/eslint-config-base": "^0.5.66",
+    "@nice-move/prettier-config": "^0.5.1",
     "ava": "^3.15.0",
     "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-ava": "^12.0.0",
-    "garou": "^0.1.41",
+    "eslint-plugin-ava": "^13.1.0",
+    "garou": "^0.2.4",
     "postcss": "^8.3.11",
     "prettier": "^2.4.1"
   },
   "peerDependencies": {
-    "postcss": "^8.3.7"
+    "postcss": "^8.3.11"
   },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0"
+    "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
   },
   "publishConfig": {
     "access": "public",

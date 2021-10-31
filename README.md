@@ -37,7 +37,7 @@ npm install postcss-preset-evergreen postcss --save-dev
 
 ## Usage
 
-```json
+```jsonc
 // example: postcss.config.json
 {
   "plugins": ["postcss-preset-evergreen"]
