@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -36,33 +36,35 @@
   "dependencies": {
     "autoprefixer": "^10.4.0",
     "postcss-clamp": "^2.0.0",
-    "postcss-color-functional-notation": "4.0.1",
+    "postcss-color-functional-notation": "^4.0.2",
+    "postcss-color-hex-alpha": "^8.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
-    "postcss-gap-properties": "^3.0.0",
+    "postcss-gap-properties": "^3.0.1",
     "postcss-media-minmax": "^5.0.0",
-    "postcss-overflow-shorthand": "3.0.0",
+    "postcss-opacity-percentage": "^1.0.0",
+    "postcss-overflow-shorthand": "^3.0.1",
     "postcss-page-break": "^3.0.4",
-    "postcss-place": "^7.0.1",
+    "postcss-place": "^7.0.2",
     "postcss-replace-overflow-wrap": "^4.0.0",
     "postcss-selector-not": "^5.0.0",
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.5.33",
-    "@nice-move/commitlint-config": "^0.3.0",
-    "@nice-move/eslint-config-base": "^0.5.67",
+    "@nice-move/cli": "^0.6.0",
+    "@nice-move/commitlint-config": "^0.4.0",
+    "@nice-move/eslint-config-base": "^0.5.75",
     "@nice-move/prettier-config": "^0.5.1",
     "ava": "^3.15.0",
-    "commitlint": "^13.2.1",
+    "commitlint": "^15.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-ava": "^13.1.0",
-    "garou": "^0.2.5",
-    "postcss": "^8.4.4",
-    "prettier": "^2.4.1"
+    "garou": "^0.3.4",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
-    "postcss": "^8.3.11"
+    "postcss": "^8.4.5"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
@@ -79,7 +81,6 @@
   },
   "prettier": "@nice-move/prettier-config",
   "todos": [
-    "postcss-is-pseudo-class",
     "postcss-custom-properties",
     "postcss-css-variables"
   ]

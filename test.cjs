@@ -81,6 +81,9 @@ test('stage 2', async (t) => {
         overflow-wrap: break-word;
         /* */
         place-self: center;
+        /* */
+        color: #0003;
+        opacity: 45%;
       }
     `,
     css`
@@ -90,11 +93,13 @@ test('stage 2', async (t) => {
         overflow: hidden auto;
         /* */
         word-wrap: break-word;
-        overflow-wrap: break-word;
         /* */
         align-self: center;
         justify-self: center;
         place-self: center;
+        /* */
+        color: rgba(0, 0, 0, 0.2);
+        opacity: 0.45;
       }
     `,
   );
