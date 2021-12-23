@@ -36,8 +36,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.0",
     "postcss-clamp": "^2.0.0",
-    "postcss-color-functional-notation": "^4.0.2",
-    "postcss-color-hex-alpha": "^8.0.0",
+    "postcss-color-functional-notation": "^4.1.0",
+    "postcss-color-hex-alpha": "^8.0.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^3.0.1",
