@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -26,7 +26,9 @@
     "url": "https://github.com/best-shot/postcss-preset-evergreen/issues"
   },
   "main": "index.cjs",
-  "files": [],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "nice-move lint",
     "prepare": "git config core.hooksPath .githooks",
@@ -42,7 +44,6 @@
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^3.0.2",
     "postcss-media-minmax": "^5.0.0",
-    "postcss-opacity-percentage": "^1.1.0",
     "postcss-overflow-shorthand": "^3.0.2",
     "postcss-page-break": "^3.0.4",
     "postcss-place": "^7.0.3",

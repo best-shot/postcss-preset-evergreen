@@ -3400,11 +3400,6 @@ postcss-media-minmax@^5.0.0:
   resolved "https://registry.yarnpkg.com/postcss-media-minmax/-/postcss-media-minmax-5.0.0.tgz#7140bddec173e2d6d657edbd8554a55794e2a5b5"
   integrity sha512-yDUvFf9QdFZTuCUg0g0uNSHVlJ5X1lSzDZjPSFaiCWvjgsvu8vEVxtahPrLMinIDEEGnx6cBe6iqdx5YWz08wQ==
 
-postcss-opacity-percentage@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-opacity-percentage/-/postcss-opacity-percentage-1.1.0.tgz#2a9385ae6a5ab96aa7ac8eaa2ddbd09a5af0ffc1"
-  integrity sha512-fsGydedeI8Kh5TWEIq5fF4f1YbkcF2g74D2xlp401vt0V7uCw9EsJ0LeYDXvLvEbjfV6nAiefpAYJETg2VrRFw==
-
 postcss-overflow-shorthand@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/postcss-overflow-shorthand/-/postcss-overflow-shorthand-3.0.2.tgz#b4e9c89728cd1e4918173dfb95936b75f78d4148"

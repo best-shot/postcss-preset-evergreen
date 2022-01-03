@@ -11,7 +11,7 @@ module.exports = {
     require('postcss-font-variant')(),
     require('postcss-gap-properties')(),
     require('postcss-media-minmax')(),
-    require('postcss-opacity-percentage')({}),
+    require('./lib/postcss-opacity-percentage.cjs')(),
     require('postcss-overflow-shorthand')(),
     require('postcss-page-break')(),
     require('postcss-place')(),
