@@ -3,7 +3,6 @@
 const test = require('ava').default;
 const postcss = require('postcss');
 const { format } = require('prettier');
-
 const presets = require('./index.cjs');
 
 function pretty(string) {
@@ -83,6 +82,7 @@ test('stage 2', async (t) => {
         place-self: center;
         /* */
         color: #0003;
+        color: rgb(0 0 0 / 50%);
         opacity: 45%;
       }
     `,
@@ -99,6 +99,7 @@ test('stage 2', async (t) => {
         place-self: center;
         /* */
         color: rgba(0, 0, 0, 0.2);
+        color: rgba(0, 0, 0, 0.5);
         opacity: 0.45;
       }
     `,
