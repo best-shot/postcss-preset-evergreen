@@ -38,15 +38,15 @@
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "postcss-clamp": "^2.0.0",
-    "postcss-color-functional-notation": "^4.2.1",
-    "postcss-color-hex-alpha": "^8.0.2",
+    "postcss-color-functional-notation": "^4.2.2",
+    "postcss-color-hex-alpha": "^8.0.3",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
-    "postcss-gap-properties": "^3.0.2",
+    "postcss-gap-properties": "^3.0.3",
     "postcss-media-minmax": "^5.0.0",
-    "postcss-overflow-shorthand": "^3.0.2",
+    "postcss-overflow-shorthand": "^3.0.3",
     "postcss-page-break": "^3.0.4",
-    "postcss-place": "^7.0.3",
+    "postcss-place": "^7.0.4",
     "postcss-replace-overflow-wrap": "^4.0.0",
     "postcss-selector-not": "^5.0.0",
     "postcss-will-change": "^4.0.1"
@@ -61,7 +61,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-ava": "^13.2.0",
     "garou": "^0.3.8",
-    "postcss": "^8.4.5",
+    "postcss": "^8.4.6",
     "prettier": "^2.5.1"
   },
   "peerDependencies": {
