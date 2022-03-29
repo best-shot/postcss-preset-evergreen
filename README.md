@@ -22,6 +22,7 @@ This preset includes the following packages:
 - postcss-font-variant
 - postcss-gap-properties
 - postcss-media-minmax
+- postcss-opacity-percentage
 - postcss-overflow-shorthand
 - postcss-page-break
 - postcss-place

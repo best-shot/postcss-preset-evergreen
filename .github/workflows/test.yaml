@@ -18,29 +18,19 @@ jobs:
           - 14.17.0
           - 16.13.0
     runs-on: ${{ matrix.os }}
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v2
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          cache: 'npm'
 
       - name: Install
-        run: yarn remove garou
+        run: npm ci || npm remove garou @nice-move/cli
 
       - name: Test
-        run: yarn test
+        run: npm test
