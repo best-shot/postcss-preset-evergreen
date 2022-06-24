@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -26,12 +26,10 @@
     "url": "https://github.com/best-shot/postcss-preset-evergreen/issues"
   },
   "main": "index.cjs",
-  "files": [
-    "lib"
-  ],
+  "files": [],
   "scripts": {
     "lint:staged": "nice-move lint staged",
-    "prepare": "git config core.hooksPath .githooks",
+    "prepare": "nice-move git hooks",
     "prepublishOnly": "npm run lint:staged && npm test",
     "test": "ava --fail-fast"
   },
@@ -39,31 +37,32 @@
     "autoprefixer": "^10.4.7",
     "postcss-clamp": "^4.1.0",
     "postcss-color-functional-notation": "^4.2.3",
-    "postcss-color-hex-alpha": "^8.0.3",
+    "postcss-color-hex-alpha": "^8.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^3.0.3",
     "postcss-media-minmax": "^5.0.0",
+    "postcss-opacity-percentage": "^1.1.2",
     "postcss-overflow-shorthand": "^3.0.3",
     "postcss-page-break": "^3.0.4",
     "postcss-place": "^7.0.4",
     "postcss-replace-overflow-wrap": "^4.0.0",
-    "postcss-selector-not": "^5.0.0",
+    "postcss-selector-not": "^6.0.0",
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@nice-move/cli": "^0.7.1",
-    "@nice-move/eslint-config-base": "^0.6.4",
-    "@nice-move/prettier-config": "^0.5.4",
+    "@nice-move/cli": "^0.9.6",
+    "@nice-move/eslint-config-base": "^0.7.3",
+    "@nice-move/prettier-config": "^0.6.0",
     "ava": "^4.3.0",
-    "eslint": "^8.12.0",
+    "eslint": "^8.18.0",
     "eslint-plugin-ava": "^13.2.0",
-    "garou": "^0.4.4",
+    "garou": "^0.4.14",
     "postcss": "^8.4.14",
-    "prettier": "^2.6.1"
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
-    "postcss": "^8.4.12"
+    "postcss": "^8.4.14"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
