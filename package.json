@@ -34,7 +34,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.8",
     "postcss-clamp": "^4.1.0",
     "postcss-color-functional-notation": "^4.2.4",
     "postcss-color-hex-alpha": "^8.0.4",
