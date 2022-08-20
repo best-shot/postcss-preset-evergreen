@@ -58,7 +58,7 @@
     "eslint": "^8.19.0",
     "eslint-plugin-ava": "^13.2.0",
     "garou": "^0.4.14",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.16",
     "prettier": "^2.7.1"
   },
   "peerDependencies": {
