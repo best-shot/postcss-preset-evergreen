@@ -53,12 +53,12 @@
   "devDependencies": {
     "@bring-it/npm": "^0.1.0",
     "@nice-move/cli": "^0.9.10",
-    "@nice-move/eslint-config-base": "^0.8.12",
+    "@nice-move/eslint-config-base": "^0.8.14",
     "@nice-move/prettier-config": "^0.7.3",
     "ava": "^4.3.3",
-    "eslint": "^8.23.1",
+    "eslint": "^8.25.0",
     "eslint-plugin-ava": "^13.2.0",
-    "garou": "^0.5.1",
+    "garou": "^0.5.2",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1"
   },
