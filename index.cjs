@@ -5,9 +5,8 @@ const { name } = require('./package.json');
 module.exports = {
   plugins: [
     require('postcss-clamp')(),
-    require('postcss-color-functional-notation')(),
     require('postcss-color-hex-alpha')(),
-    require('postcss-flexbugs-fixes')(),
+    require('postcss-color-functional-notation')(),
     require('postcss-font-variant')(),
     require('postcss-gap-properties')(),
     require('postcss-media-minmax')(),
@@ -17,6 +16,7 @@ module.exports = {
     require('postcss-place')(),
     require('postcss-replace-overflow-wrap')(),
     require('postcss-selector-not')(),
+    require('postcss-flexbugs-fixes')(),
     require('postcss-will-change')(),
     require('autoprefixer')(),
   ],
