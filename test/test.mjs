@@ -51,7 +51,7 @@ test(
       /* */
       color: #1003;
       border-color: rgba(51 170 51 / 0.4);
-      outline-color: rgb(0 15 0 / 50%);
+      outline-color: hwb(194 0% 0% / 0.5);
       opacity: 45%;
     }
   `,
