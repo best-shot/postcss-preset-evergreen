@@ -4,6 +4,7 @@ const { name } = require('./package.json');
 
 module.exports = {
   plugins: [
+    require('postcss-logical')(),
     require('postcss-clamp')(),
     require('@csstools/postcss-hwb-function')(),
     require('postcss-color-hex-alpha')(),

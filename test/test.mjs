@@ -77,6 +77,7 @@ test(
       will-change: transform;
       /* */
       flex: 1;
+      inset: 0;
     }
   `,
 );
