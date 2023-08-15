@@ -19,6 +19,9 @@ test(
   'stage 3',
   runner,
   css`
+    :is(input, button):is(:hover, :focus) {
+      order: 1;
+    }
     div {
       display: grid;
       gap: 20px;

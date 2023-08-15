@@ -10,6 +10,7 @@ module.exports = {
     require('postcss-color-hex-alpha')(),
     require('postcss-color-functional-notation')(),
     require('postcss-font-variant')(),
+    require('@csstools/postcss-is-pseudo-class')(),
     require('postcss-gap-properties')(),
     require('postcss-media-minmax')(),
     require('postcss-opacity-percentage')(),
