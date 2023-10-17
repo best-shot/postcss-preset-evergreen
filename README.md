@@ -15,12 +15,16 @@ A [postcss] preset for modern css syntaxes.
 
 This preset includes the following packages:
 
+- @csstools/postcss-hwb-function
+- @csstools/postcss-is-pseudo-class
 - autoprefixer
 - postcss-clamp
 - postcss-color-functional-notation
+- postcss-color-hex-alpha
 - postcss-flexbugs-fixes
 - postcss-font-variant
 - postcss-gap-properties
+- postcss-logical
 - postcss-media-minmax
 - postcss-opacity-percentage
 - postcss-overflow-shorthand

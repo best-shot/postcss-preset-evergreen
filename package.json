@@ -35,12 +35,12 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^3.0.4",
-    "@csstools/postcss-is-pseudo-class": "^4.0.2",
+    "@csstools/postcss-hwb-function": "^3.0.6",
+    "@csstools/postcss-is-pseudo-class": "^4.0.3",
     "autoprefixer": "^10.4.16",
     "browserslist": "^4.22.1",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^6.0.1",
+    "postcss-color-functional-notation": "^6.0.2",
     "postcss-color-hex-alpha": "^9.0.2",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
@@ -56,19 +56,19 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.3.1",
-    "@nice-move/cli": "^0.10.11",
-    "@nice-move/eslint-config-base": "^0.9.20",
+    "@bring-it/npm": "^0.3.5",
+    "@nice-move/cli": "^0.10.13",
+    "@nice-move/eslint-config-base": "^0.9.22",
     "@nice-move/prettier-config": "^0.9.6",
     "ava": "^5.3.1",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "eslint-plugin-ava": "^14.0.0",
-    "garou": "^0.6.14",
+    "garou": "^0.6.17",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3"
   },
   "peerDependencies": {
-    "postcss": "^8.4.30"
+    "postcss": "^8.4.31"
   },
   "engines": {
     "node": ">=18.12.0 || ^16.15.0"
@@ -77,15 +77,14 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.7.6",
+  "packageManager": "pnpm@8.8.0",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
   "prettier": "@nice-move/prettier-config",
   "todos": [
     "postcss-custom-properties",
-    "postcss-css-variables",
-    "postcss-logical"
+    "postcss-css-variables"
   ],
   "x-readme": {
     "logo": "https://cdn.jsdelivr.net/gh/babel/logo/babel.png"
