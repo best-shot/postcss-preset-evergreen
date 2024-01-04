@@ -15,7 +15,7 @@ dependencies:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.32)
   browserslist:
-    specifier: ^4.22.1
+    specifier: ^4.22.2
     version: 4.22.2
   postcss-clamp:
     specifier: ^4.1.0

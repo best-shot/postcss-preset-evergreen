@@ -38,7 +38,7 @@
     "@csstools/postcss-hwb-function": "^3.0.7",
     "@csstools/postcss-is-pseudo-class": "^4.0.4",
     "autoprefixer": "^10.4.16",
-    "browserslist": "^4.22.1",
+    "browserslist": "^4.22.2",
     "postcss-clamp": "^4.1.0",
     "postcss-color-functional-notation": "^6.0.3",
     "postcss-color-hex-alpha": "^9.0.3",
