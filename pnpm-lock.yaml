@@ -21,10 +21,10 @@ dependencies:
     specifier: ^4.1.0
     version: 4.1.0(postcss@8.4.32)
   postcss-color-functional-notation:
-    specifier: ^6.0.2
+    specifier: ^6.0.3
     version: 6.0.3(postcss@8.4.32)
   postcss-color-hex-alpha:
-    specifier: ^9.0.2
+    specifier: ^9.0.3
     version: 9.0.3(postcss@8.4.32)
   postcss-flexbugs-fixes:
     specifier: ^5.0.2
@@ -33,10 +33,10 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0(postcss@8.4.32)
   postcss-gap-properties:
-    specifier: ^5.0.0
+    specifier: ^5.0.1
     version: 5.0.1(postcss@8.4.32)
   postcss-logical:
-    specifier: ^7.0.0
+    specifier: ^7.0.1
     version: 7.0.1(postcss@8.4.32)
   postcss-media-minmax:
     specifier: ^5.0.0
@@ -45,13 +45,13 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0(postcss@8.4.32)
   postcss-overflow-shorthand:
-    specifier: ^5.0.0
+    specifier: ^5.0.1
     version: 5.0.1(postcss@8.4.32)
   postcss-page-break:
     specifier: ^3.0.4
     version: 3.0.4(postcss@8.4.32)
   postcss-place:
-    specifier: ^9.0.0
+    specifier: ^9.0.1
     version: 9.0.1(postcss@8.4.32)
   postcss-replace-overflow-wrap:
     specifier: ^4.0.0
@@ -89,7 +89,7 @@ devDependencies:
     specifier: ^0.6.22
     version: 0.6.22(eslint@8.56.0)(typescript@5.3.3)
   postcss:
-    specifier: ^8.4.31
+    specifier: ^8.4.32
     version: 8.4.32
   prettier:
     specifier: ^3.1.1
