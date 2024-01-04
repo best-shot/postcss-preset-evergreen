@@ -57,15 +57,15 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.3.5",
-    "@nice-move/cli": "^0.10.13",
-    "@nice-move/eslint-config-base": "^0.9.22",
-    "@nice-move/prettier-config": "^0.9.6",
+    "@nice-move/cli": "^0.11.3",
+    "@nice-move/eslint-config-base": "^0.11.1",
+    "@nice-move/prettier-config": "^0.10.0",
     "ava": "^5.3.1",
-    "eslint": "^8.51.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-ava": "^14.0.0",
-    "garou": "^0.6.17",
+    "garou": "^0.6.22",
     "postcss": "^8.4.31",
-    "prettier": "^3.0.3"
+    "prettier": "^3.1.1"
   },
   "peerDependencies": {
     "postcss": "^8.4.31"
