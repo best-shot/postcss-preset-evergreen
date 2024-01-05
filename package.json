@@ -56,7 +56,7 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.3.5",
+    "@bring-it/npm": "^0.5.0",
     "@nice-move/cli": "^0.11.3",
     "@nice-move/eslint-config-base": "^0.11.1",
     "@nice-move/prettier-config": "^0.10.0",
