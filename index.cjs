@@ -22,6 +22,7 @@ module.exports = {
     require('postcss-flexbugs-fixes')(),
     require('postcss-will-change')(),
     require('autoprefixer')(),
+    require('postcss-safe-area')(),
   ],
   postcssPlugin: name,
 };

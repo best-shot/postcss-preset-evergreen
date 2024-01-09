@@ -81,6 +81,7 @@ test(
       /* */
       flex: 1;
       inset: 0;
+      padding-top: calc(env(safe-area-inset-top, 0px) + 5em);
     }
   `,
 );
