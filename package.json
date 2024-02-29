@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -35,13 +35,13 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^3.0.8",
-    "@csstools/postcss-is-pseudo-class": "^4.0.4",
-    "autoprefixer": "^10.4.16",
-    "browserslist": "^4.22.2",
+    "@csstools/postcss-hwb-function": "^3.0.9",
+    "@csstools/postcss-is-pseudo-class": "^4.0.5",
+    "autoprefixer": "^10.4.17",
+    "browserslist": "^4.23.0",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^6.0.4",
-    "postcss-color-hex-alpha": "^9.0.3",
+    "postcss-color-functional-notation": "^6.0.5",
+    "postcss-color-hex-alpha": "^9.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^5.0.1",
@@ -53,23 +53,23 @@
     "postcss-place": "^9.0.1",
     "postcss-replace-overflow-wrap": "^4.0.0",
     "postcss-safe-area": "^0.1.1",
-    "postcss-selector-not": "^7.0.1",
+    "postcss-selector-not": "^7.0.2",
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.1",
+    "@bring-it/npm": "^0.5.2",
     "@nice-move/cli": "^0.11.3",
     "@nice-move/eslint-config-base": "^0.11.1",
     "@nice-move/prettier-config": "^0.10.0",
-    "ava": "^6.0.1",
-    "eslint": "^8.56.0",
+    "ava": "^6.1.2",
+    "eslint": "^8.57.0",
     "eslint-plugin-ava": "^14.0.0",
-    "garou": "^0.6.23",
-    "postcss": "^8.4.33",
-    "prettier": "^3.1.1"
+    "garou": "^0.7.1",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "postcss": "^8.4.33"
+    "postcss": "^8.4.35"
   },
   "engines": {
     "node": ">=18.12.0 || ^16.15.0"
@@ -78,7 +78,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@8.15.0",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
