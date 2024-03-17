@@ -37,7 +37,7 @@
   "dependencies": {
     "@csstools/postcss-hwb-function": "^3.0.9",
     "@csstools/postcss-is-pseudo-class": "^4.0.5",
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.4.18",
     "browserslist": "^4.23.0",
     "postcss-clamp": "^4.1.0",
     "postcss-color-functional-notation": "^6.0.5",
