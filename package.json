@@ -78,7 +78,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.15.0",
+  "packageManager": "pnpm@8.15.4",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
