@@ -40,7 +40,7 @@
     "autoprefixer": "^10.4.17",
     "browserslist": "^4.23.0",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^6.0.5",
+    "postcss-color-functional-notation": "^6.0.6",
     "postcss-color-hex-alpha": "^9.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
