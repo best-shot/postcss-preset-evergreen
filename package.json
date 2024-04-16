@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -35,12 +35,12 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^3.0.9",
-    "@csstools/postcss-is-pseudo-class": "^4.0.5",
-    "autoprefixer": "^10.4.17",
+    "@csstools/postcss-hwb-function": "^3.0.12",
+    "@csstools/postcss-is-pseudo-class": "^4.0.6",
+    "autoprefixer": "^10.4.19",
     "browserslist": "^4.23.0",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^6.0.5",
+    "postcss-color-functional-notation": "^6.0.8",
     "postcss-color-hex-alpha": "^9.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
@@ -58,18 +58,18 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.2",
-    "@nice-move/cli": "^0.11.3",
-    "@nice-move/eslint-config-base": "^0.11.1",
-    "@nice-move/prettier-config": "^0.10.0",
+    "@nice-move/cli": "^0.11.9",
+    "@nice-move/eslint-config-base": "^0.11.3",
+    "@nice-move/prettier-config": "^0.11.1",
     "ava": "^6.1.2",
     "eslint": "^8.57.0",
     "eslint-plugin-ava": "^14.0.0",
-    "garou": "^0.7.1",
-    "postcss": "^8.4.35",
+    "garou": "^0.7.3",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "postcss": "^8.4.35"
+    "postcss": "^8.4.38"
   },
   "engines": {
     "node": ">=18.12.0 || ^16.15.0"
@@ -78,7 +78,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "pnpm@8.15.0",
+  "packageManager": "pnpm@8.15.7",
   "eslintConfig": {
     "extends": "@nice-move/eslint-config-base"
   },
