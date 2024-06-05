@@ -1,4 +1,4 @@
-last 65 Chrome versions
-last 75 Firefox versions
-last 10 Safari versions
+Chrome >= 60
+Firefox >= 50
+Safari >= 10
 ios >= 10
