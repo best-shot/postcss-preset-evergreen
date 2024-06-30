@@ -18,7 +18,7 @@ importers:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
       browserslist:
-        specifier: ^4.23.0
+        specifier: ^4.23.1
         version: 4.23.1
       postcss-clamp:
         specifier: ^4.1.0
