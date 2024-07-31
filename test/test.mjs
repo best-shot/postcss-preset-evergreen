@@ -1,5 +1,6 @@
 import test from 'ava';
 import postcss from 'postcss';
+import { format } from 'prettier';
 
 import presets from '../index.cjs';
 
@@ -8,7 +9,7 @@ async function runner(t, input) {
 
   t.is(result.warnings().length, 0);
 
-  t.snapshot(result.css);
+  t.snapshot(await format(result.css, { parser: 'css' }));
 }
 
 function css([string]) {
@@ -28,14 +29,14 @@ test(
     }
     @media screen and (width >= 500px) and (width <= 1200px) {
       body {
-        font-kerning: normal;
         /* */
         gap: 20px;
         column-gap: 40px;
         row-gap: 20px;
+        break-after: page;
         /* */
         break-inside: avoid;
-        break-after: page;
+        font-kerning: normal;
       }
     }
   `,
@@ -46,16 +47,16 @@ test(
   runner,
   css`
     p:not(:first-child, .special) {
-      overflow: hidden auto;
-      /* */
-      overflow-wrap: break-word;
       /* */
       place-self: center;
+      opacity: 45%;
+      outline-color: hwb(194 0% 0% / 0.5);
+      border-color: rgba(51 170 51 / 0.4);
+      overflow: hidden auto;
       /* */
       color: #1003;
-      border-color: rgba(51 170 51 / 0.4);
-      outline-color: hwb(194 0% 0% / 0.5);
-      opacity: 45%;
+      /* */
+      overflow-wrap: break-word;
     }
   `,
 );
@@ -65,9 +66,9 @@ test(
   runner,
   css`
     body {
-      color: rgb(178 34 34);
       /* */
       width: clamp(10px, 4em, 80px);
+      color: rgb(178 34 34);
     }
   `,
 );
@@ -77,11 +78,35 @@ test(
   runner,
   css`
     body {
-      will-change: transform;
       /* */
       flex: 1;
+      will-change: transform;
       inset: 0;
       padding-top: calc(env(safe-area-inset-top, 0px) + 5em);
+    }
+  `,
+);
+
+test(
+  'nesting',
+  runner,
+  css`
+    .foo {
+      color: red;
+
+      &:hover {
+        color: green;
+      }
+
+      > .bar {
+        color: blue;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        color: cyan;
+      }
+
+      color: pink;
     }
   `,
 );

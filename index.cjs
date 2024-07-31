@@ -23,6 +23,7 @@ module.exports = {
     require('postcss-will-change')(),
     require('autoprefixer')(),
     require('postcss-safe-area')(),
+    require('postcss-nesting')({ edition: '2024-02' }),
   ],
   postcssPlugin: name,
 };

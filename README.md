@@ -33,6 +33,7 @@ This preset includes the following packages:
 - postcss-replace-overflow-wrap
 - postcss-selector-not
 - postcss-will-change
+- postcss-nesting
 
 ## Installation
 
