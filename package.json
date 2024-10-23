@@ -60,7 +60,7 @@
   "devDependencies": {
     "@bring-it/npm": "^0.5.9",
     "@nice-move/cli": "^0.11.16",
-    "@nice-move/eslint-config-base": "^0.11.23",
+    "@nice-move/eslint-config-base": "^0.11.24",
     "@nice-move/prettier-config": "^0.14.6",
     "ava": "^6.1.3",
     "eslint": "^8.57.1",
