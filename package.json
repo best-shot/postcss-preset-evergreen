@@ -35,7 +35,7 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^4.0.2",
+    "@csstools/postcss-hwb-function": "^4.0.3",
     "@csstools/postcss-is-pseudo-class": "^5.0.0",
     "autoprefixer": "^10.4.20",
     "browserslist": "^4.24.0",
