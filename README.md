@@ -1,4 +1,4 @@
-# postcss-preset-evergreen <img src="https://cdn.jsdelivr.net/gh/babel/logo/babel.png" alt="logo" height="80" align="right">
+# postcss-preset-evergreen <img src="https://postcss.org/assets/postcss-CsElRNOW.svg" alt="logo" height="80" align="right">
 
 A [postcss] preset for modern css syntaxes.
 

@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -35,38 +35,38 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^4.0.2",
-    "@csstools/postcss-is-pseudo-class": "^5.0.0",
+    "@csstools/postcss-hwb-function": "^4.0.6",
+    "@csstools/postcss-is-pseudo-class": "^5.0.1",
     "autoprefixer": "^10.4.20",
-    "browserslist": "^4.24.0",
+    "browserslist": "^4.24.2",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^7.0.2",
+    "postcss-color-functional-notation": "^7.0.6",
     "postcss-color-hex-alpha": "^10.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^6.0.0",
     "postcss-logical": "^8.0.0",
     "postcss-media-minmax": "^5.0.0",
-    "postcss-nesting": "^13.0.0",
+    "postcss-nesting": "^13.0.1",
     "postcss-opacity-percentage": "^3.0.0",
     "postcss-overflow-shorthand": "^6.0.0",
     "postcss-page-break": "^3.0.4",
     "postcss-place": "^10.0.0",
     "postcss-replace-overflow-wrap": "^4.0.0",
     "postcss-safe-area": "^0.1.1",
-    "postcss-selector-not": "^8.0.0",
+    "postcss-selector-not": "^8.0.1",
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
     "@bring-it/npm": "^0.5.9",
     "@nice-move/cli": "^0.11.16",
-    "@nice-move/eslint-config-base": "^0.11.23",
-    "@nice-move/prettier-config": "^0.14.6",
-    "ava": "^6.1.3",
+    "@nice-move/eslint-config-base": "^0.11.28",
+    "@nice-move/prettier-config": "^0.14.10",
+    "ava": "^6.2.0",
     "eslint": "^8.57.1",
     "eslint-plugin-ava": "^14.0.0",
-    "garou": "^0.8.0",
-    "postcss": "^8.4.40",
+    "garou": "^0.8.1",
+    "postcss": "^8.4.49",
     "prettier": "^3.3.3"
   },
   "peerDependencies": {
@@ -89,6 +89,6 @@
     "postcss-css-variables"
   ],
   "x-readme": {
-    "logo": "https://cdn.jsdelivr.net/gh/babel/logo/babel.png"
+    "logo": "https://postcss.org/assets/postcss-CsElRNOW.svg"
   }
 }
