@@ -2,7 +2,7 @@ import test from 'ava';
 import postcss from 'postcss';
 import { format } from 'prettier';
 
-import presets from '../index.cjs';
+import presets from '../lib/index.cjs';
 
 async function runner(t, input) {
   const result = await postcss([presets]).process(input, { from: './' });
