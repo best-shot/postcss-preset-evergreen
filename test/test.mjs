@@ -52,9 +52,10 @@ test(
       opacity: 45%;
       outline-color: hwb(194 0% 0% / 0.5);
       border-color: rgba(51 170 51 / 0.4);
+      background-color: oklch(40% 0.268735435 34.568626);
       overflow: hidden auto;
-      /* */
       color: #1003;
+      caret-color: oklab(40% 0.001236 0.0039);
       /* */
       overflow-wrap: break-word;
     }
