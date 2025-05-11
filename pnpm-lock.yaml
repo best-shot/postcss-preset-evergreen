@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@csstools/postcss-hwb-function':
-        specifier: ^4.0.7
+        specifier: ^4.0.9
         version: 4.0.9(postcss@8.5.3)
       '@csstools/postcss-is-pseudo-class':
         specifier: ^5.0.1
