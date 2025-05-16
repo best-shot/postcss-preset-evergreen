@@ -82,7 +82,7 @@ importers:
         specifier: ^0.4.6
         version: 0.4.26(@babel/core@7.27.1)(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(garou@0.9.7(eslint@9.26.0)(typescript@5.8.3))(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)
       ava:
-        specifier: ^6.2.0
+        specifier: ^6.3.0
         version: 6.3.0
       eslint:
         specifier: ^9.18.0
