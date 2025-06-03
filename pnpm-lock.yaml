@@ -79,22 +79,22 @@ importers:
         specifier: ^0.5.9
         version: 0.5.9(@bring-it/cli@0.9.9)
       '@nice-move/all-in-base':
-        specifier: ^0.4.6
-        version: 0.4.26(@babel/core@7.27.1)(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(garou@0.9.7(eslint@9.27.0)(typescript@5.8.3))(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)
+        specifier: ^0.4.28
+        version: 0.4.29(@babel/core@7.27.1)(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(garou@0.9.8(eslint@9.27.0)(typescript@5.8.3))(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)
       ava:
         specifier: ^6.2.0
         version: 6.3.0
       eslint:
-        specifier: ^9.18.0
+        specifier: ^9.27.0
         version: 9.27.0
       garou:
-        specifier: ^0.9.3
-        version: 0.9.7(eslint@9.27.0)(typescript@5.8.3)
+        specifier: ^0.9.8
+        version: 0.9.8(eslint@9.27.0)(typescript@5.8.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.3
       prettier:
-        specifier: ^3.4.2
+        specifier: ^3.5.3
         version: 3.5.3
 
 packages:
@@ -373,12 +373,12 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@nice-move/all-in-base@0.4.26':
-    resolution: {integrity: sha512-+bspT5lWfLvA2dlBCiU8ajIokXNHyhHWXU8aKaevhiTJYWpagjXr/dfJKg6IagJMyyEAmZUE/eH2KPWuEuR9/A==}
-    engines: {node: ^20.18.1 || ^22.11.0}
+  '@nice-move/all-in-base@0.4.29':
+    resolution: {integrity: sha512-DHew1EOW6d+BLrf0iBZjlOTvEckLEfiNqPt0i3VhEHajwXteELIGqSCPABfrlBJPGFMBQzx8QCkI5Lc3XGMIOw==}
+    engines: {node: ^20.19.2 || ^22.14.0 || ^24.0.0}
     peerDependencies:
-      eslint: ^9.25.1
-      garou: ^0.9.5
+      eslint: ^9.27.0
+      garou: ^0.9.8
       prettier: ^3.5.3
       typescript: ~5.8.3
     peerDependenciesMeta:
@@ -387,16 +387,16 @@ packages:
       typescript:
         optional: true
 
-  '@nice-move/cli@0.11.21':
-    resolution: {integrity: sha512-0Mh8iZsULvhEbHXCgGEDqdCUHSPULmfRc4DnjMnfSzse+ifrHHFVGLi7ufxH9LLEs+kpnldGcvVtmrqG6g3Kcg==}
+  '@nice-move/cli@0.11.25':
+    resolution: {integrity: sha512-eYilufFANZmImuBxgdx188Z1z3NR7dyfSj6QDZm/sssRl0e0gqpNTB4ZmezhXIRxmUTPzcYP7HUTmLEfn42VJw==}
     engines: {node: ^20.18.1 || ^22.11.0}
     hasBin: true
 
-  '@nice-move/eslint-config-base@0.12.19':
-    resolution: {integrity: sha512-MDxMj8IrsWeDMdOurXBZlPIE8KL1hFb5KXNK+rpj1SN1wnAr/q6Dz8Gj7rwW5vZCZPE8BgzSwrK6h8O3u7oJ9g==}
+  '@nice-move/eslint-config-base@0.12.21':
+    resolution: {integrity: sha512-aWH4Av7zVNPNzf1woY3AbFv/JOqGgspqZDIZIQansMzZ7TLKGV679Mnw4nFOKxDlg3vCBnv/RkjFTWv+W+OLwA==}
     engines: {node: ^20.18.1 || ^22.11.0}
     peerDependencies:
-      eslint: ^9.25.1
+      eslint: ^9.27.0
 
   '@nice-move/eslint-plugin-html@0.1.1':
     resolution: {integrity: sha512-iW7zcxNjYI+8WySl1iMCPCL1oKmKGsTwqnhxL5nH6jePZWF97vrz9caaq0Q6xTk3I0vM9D+/8MOBhze/LX26+w==}
@@ -404,8 +404,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.1 || ^9.17.0
 
-  '@nice-move/prettier-config@0.14.14':
-    resolution: {integrity: sha512-2ixOzW25bGu7jssiY+7QhOsdefQMAFxMfKejUtgiS9pCnwp3rgZ2TEeTGEgNt1WT+nY5xakwURcn7s2K5uLimQ==}
+  '@nice-move/prettier-config@0.14.15':
+    resolution: {integrity: sha512-9qcvkzGsPBx8L3jrB6R5UhCnaJ66oNhLSY5eZAfd/my84nyhQzEqRVibRdA7gDMMF/jx0nFpojc719RVk6CQFg==}
     engines: {node: ^20.18.1 || ^22.11.0}
     peerDependencies:
       prettier: ^3.5.3
@@ -425,11 +425,11 @@ packages:
       '@vue/compiler-sfc':
         optional: true
 
-  '@nice-move/tsconfig@0.2.9':
-    resolution: {integrity: sha512-Y4Rfw6AlMhLf1qK9+PnSTy2zV6qF0mMu6Z87Jhs0sWmYVn+cktSnxBsfnSr4EGVIyzw/in0jObINmk+m49q/Xw==}
-    engines: {node: ^20.18.1 || ^22.11.0}
+  '@nice-move/tsconfig@0.2.10':
+    resolution: {integrity: sha512-AZ218LdUnLUksSqQAhCSzfp+FQ9QG/ahbTKdq2On/4zdzhZOus0XGVoJhTgORdmLSYo/g/wvByjlJ2xwGqjSdg==}
+    engines: {node: ^20.19.2 || ^22.14.0 || ^24.0.0}
     peerDependencies:
-      typescript: ~5.8.2
+      typescript: ~5.8.3
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1201,12 +1201,12 @@ packages:
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
 
-  garou@0.9.7:
-    resolution: {integrity: sha512-Ktf0uqfY6AcrDfE/cvrm7wIBFIQKZ1xVkGSfBiGOyCNTerLaGCRSnCwp20El/oUKDvglt4hvf7qZrlWn1TJKVg==}
+  garou@0.9.8:
+    resolution: {integrity: sha512-eb3x9yrmSmO5B6+Xqw401JlPw4YxpoTZ5EJ3Cn6nBO6EuQcvyhY54QCt176k92yVJb+fWSJZpladwIcWw7xrCw==}
     engines: {node: ^20.18.0 || ^22.11.0}
     hasBin: true
     peerDependencies:
-      eslint: ^9.25.1
+      eslint: ^9.27.0
       typescript: ^5.8.3
     peerDependenciesMeta:
       typescript:
@@ -2617,16 +2617,16 @@ snapshots:
       - encoding
       - supports-color
 
-  '@nice-move/all-in-base@0.4.26(@babel/core@7.27.1)(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(garou@0.9.7(eslint@9.27.0)(typescript@5.8.3))(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)':
+  '@nice-move/all-in-base@0.4.29(@babel/core@7.27.1)(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(garou@0.9.8(eslint@9.27.0)(typescript@5.8.3))(postcss@8.5.3)(prettier@3.5.3)(typescript@5.8.3)':
     dependencies:
-      '@nice-move/cli': 0.11.21
-      '@nice-move/eslint-config-base': 0.12.19(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(typescript@5.8.3)
-      '@nice-move/prettier-config': 0.14.14(@babel/core@7.27.1)(postcss@8.5.3)(prettier@3.5.3)
-      '@nice-move/tsconfig': 0.2.9(typescript@5.8.3)
+      '@nice-move/cli': 0.11.25
+      '@nice-move/eslint-config-base': 0.12.21(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(typescript@5.8.3)
+      '@nice-move/prettier-config': 0.14.15(@babel/core@7.27.1)(postcss@8.5.3)(prettier@3.5.3)
+      '@nice-move/tsconfig': 0.2.10(typescript@5.8.3)
       eslint: 9.27.0
       prettier: 3.5.3
     optionalDependencies:
-      garou: 0.9.7(eslint@9.27.0)(typescript@5.8.3)
+      garou: 0.9.8(eslint@9.27.0)(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -2637,11 +2637,11 @@ snapshots:
       - postcss
       - supports-color
 
-  '@nice-move/cli@0.11.21':
+  '@nice-move/cli@0.11.25':
     dependencies:
       cheetor: 0.13.0
 
-  '@nice-move/eslint-config-base@0.12.19(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(typescript@5.8.3)':
+  '@nice-move/eslint-config-base@0.12.21(@typescript-eslint/parser@8.32.1(eslint@9.27.0)(typescript@5.8.3))(eslint@9.27.0)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.27.0)
       '@eslint/eslintrc': 3.3.1
@@ -2674,7 +2674,7 @@ snapshots:
       globals: 15.15.0
       node-html-parser: 7.0.1
 
-  '@nice-move/prettier-config@0.14.14(@babel/core@7.27.1)(postcss@8.5.3)(prettier@3.5.3)':
+  '@nice-move/prettier-config@0.14.15(@babel/core@7.27.1)(postcss@8.5.3)(prettier@3.5.3)':
     dependencies:
       '@babel/plugin-syntax-import-attributes': 7.27.1(@babel/core@7.27.1)
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.1)
@@ -2707,7 +2707,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nice-move/tsconfig@0.2.9(typescript@5.8.3)':
+  '@nice-move/tsconfig@0.2.10(typescript@5.8.3)':
     dependencies:
       typescript: 5.8.3
 
@@ -3658,7 +3658,7 @@ snapshots:
 
   functions-have-names@1.2.3: {}
 
-  garou@0.9.7(eslint@9.27.0)(typescript@5.8.3):
+  garou@0.9.8(eslint@9.27.0)(typescript@5.8.3):
     dependencies:
       '@stylistic/eslint-plugin-js': 4.2.0(eslint@9.27.0)
       '@stylistic/eslint-plugin-jsx': 4.2.0(eslint@9.27.0)
