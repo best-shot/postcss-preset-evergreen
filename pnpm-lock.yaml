@@ -15,7 +15,7 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1(postcss@8.5.4)
       '@csstools/postcss-oklab-function':
-        specifier: ^4.0.7
+        specifier: ^4.0.10
         version: 4.0.10(postcss@8.5.4)
       autoprefixer:
         specifier: ^10.4.20
