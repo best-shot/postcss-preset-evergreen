@@ -82,8 +82,8 @@ importers:
         specifier: ^0.4.6
         version: 0.4.29(@babel/core@7.27.4)(@typescript-eslint/parser@8.33.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)(garou@0.9.8(eslint@9.28.0)(typescript@5.8.3))(postcss@8.5.4)(prettier@3.5.3)(typescript@5.8.3)
       ava:
-        specifier: ^6.2.0
-        version: 6.3.0
+        specifier: ^6.4.0
+        version: 6.4.0
       eslint:
         specifier: ^9.18.0
         version: 9.28.0
@@ -668,9 +668,9 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  ava@6.3.0:
-    resolution: {integrity: sha512-64K+xNmlgMo1D94evJlkBWmJ6CGrO6oEctGEjA3PIl5GrwZyMXM5OEycZWnKGduE1YdqMvYDl29SgnNk7kyx+A==}
-    engines: {node: ^18.18 || ^20.8 || ^22 || >=23}
+  ava@6.4.0:
+    resolution: {integrity: sha512-aeFapuBZtaGwVMlFFf074SZJ0bPcdmAdJdsvhHMp+XaOnC2DgeMzopb7yyYAhulNGRJQfUK/SIBYo2PoX7+gtw==}
+    engines: {node: ^18.18 || ^20.8 || ^22 || ^23 || >=24}
     hasBin: true
     peerDependencies:
       '@ava/typescript': '*'
@@ -3019,7 +3019,7 @@ snapshots:
       postcss: 8.5.4
       postcss-value-parser: 4.2.0
 
-  ava@6.3.0:
+  ava@6.4.0:
     dependencies:
       '@vercel/nft': 0.29.4
       acorn: 8.14.1
