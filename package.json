@@ -61,7 +61,7 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.5.9",
+    "@bring-it/npm": "^0.8.3",
     "@nice-move/all-in-base": "^0.4.6",
     "ava": "^6.4.1",
     "eslint": "^9.18.0",
