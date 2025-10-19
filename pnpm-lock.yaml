@@ -76,8 +76,8 @@ importers:
         version: 4.0.1(postcss@8.5.6)
     devDependencies:
       '@bring-it/npm':
-        specifier: ^0.5.9
-        version: 0.5.9(@bring-it/cli@0.9.9)
+        specifier: ^0.9.0
+        version: 0.9.0(@bring-it/cli@0.9.9)
       '@nice-move/all-in-base':
         specifier: ^0.4.6
         version: 0.4.33(@babel/core@7.28.4)(@typescript-eslint/parser@8.46.0(eslint@9.37.0))(eslint@9.37.0)(garou@0.9.15(eslint@9.37.0))(postcss@8.5.6)(prettier@3.6.2)
@@ -193,12 +193,12 @@ packages:
     engines: {node: '>=22.0.0 || ^18.20.0 || ^20.4.0'}
     hasBin: true
 
-  '@bring-it/npm@0.5.9':
-    resolution: {integrity: sha512-OTwON7zWRmL4tPr1a9Hh0XkW6igU/SgH4nH4+PvfpE5Bmes/D4cJLn6ISRv9PMPprH4kIV4I0XEubPB+O1SuHg==}
-    engines: {node: '>=22.0.0 || ^18.20.0 || ^20.4.0', npm: '>=9.5.0'}
+  '@bring-it/npm@0.9.0':
+    resolution: {integrity: sha512-JBY2jXYw1UxoBJFAUpt26l6qVJ/XPbQfRQ2A165CE9xUG37bZsJpRL8wc+nZB3sCOZSalhyjMMg4xdvZFfnjOw==}
+    engines: {node: '>=22.18.0', npm: ^10.5.0, pnpm: ^10.15.0}
     hasBin: true
     peerDependencies:
-      '@bring-it/cli': ~0.9.7
+      '@bring-it/cli': ^0.11.0
 
   '@csstools/color-helpers@5.1.0':
     resolution: {integrity: sha512-S11EXWJyy0Mz5SYvRmY8nJYTFFd1LCNV+7cXyAgQtOOuzb4EsgfqDufL+9esx72/eLhsRdGZwaldu/h+E4t4BA==}
@@ -2440,7 +2440,7 @@ snapshots:
       globby: 14.1.0
       yargs: 17.7.2
 
-  '@bring-it/npm@0.5.9(@bring-it/cli@0.9.9)':
+  '@bring-it/npm@0.9.0(@bring-it/cli@0.9.9)':
     dependencies:
       '@bring-it/cli': 0.9.9
 
