@@ -1,10 +1,11 @@
 import test from 'ava';
+import type { ExecutionContext } from 'ava';
 import postcss from 'postcss';
 import { format } from 'prettier';
 
 import presets from '../lib/index.cjs';
 
-async function runner(t, input) {
+async function runner(t: ExecutionContext, input: string) {
   const result = await postcss([presets]).process(input, { from: './' });
 
   t.is(result.warnings().length, 0);
@@ -12,7 +13,7 @@ async function runner(t, input) {
   t.snapshot(await format(result.css, { parser: 'css' }));
 }
 
-function css([string]) {
+function css([string]: TemplateStringsArray) {
   return string;
 }
 
