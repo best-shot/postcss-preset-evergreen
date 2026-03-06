@@ -1,6 +1,6 @@
 {
   "name": "postcss-preset-evergreen",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "A `postcss` preset for modern css syntaxes",
   "license": "MIT",
   "author": {
@@ -38,13 +38,13 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^5.0.1",
+    "@csstools/postcss-hwb-function": "^5.0.2",
     "@csstools/postcss-is-pseudo-class": "^6.0.0",
-    "@csstools/postcss-oklab-function": "^5.0.1",
-    "autoprefixer": "^10.4.23",
+    "@csstools/postcss-oklab-function": "^5.0.2",
+    "autoprefixer": "^10.4.27",
     "browserslist": "^4.28.1",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^8.0.1",
+    "postcss-color-functional-notation": "^8.0.2",
     "postcss-color-hex-alpha": "^11.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
@@ -63,11 +63,11 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.9.3",
-    "@nice-move/all-in-base": "^0.6.34",
+    "@nice-move/all-in-base": "^0.6.40",
     "ava": "^6.4.1",
     "eslint": "^9.39.2",
     "garou": "^0.9.17",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.8",
     "prettier": "~3.8.0"
   },
   "peerDependencies": {
