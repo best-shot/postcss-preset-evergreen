@@ -38,13 +38,13 @@
     "test": "ava --fail-fast"
   },
   "dependencies": {
-    "@csstools/postcss-hwb-function": "^5.0.5",
+    "@csstools/postcss-hwb-function": "^5.0.6",
     "@csstools/postcss-is-pseudo-class": "^6.0.0",
-    "@csstools/postcss-oklab-function": "^5.0.5",
-    "autoprefixer": "^10.5.0",
-    "browserslist": "^4.28.4",
+    "@csstools/postcss-oklab-function": "^5.0.6",
+    "autoprefixer": "^10.5.4",
+    "browserslist": "^4.28.6",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^8.0.5",
+    "postcss-color-functional-notation": "^8.0.6",
     "postcss-color-hex-alpha": "^11.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
@@ -62,21 +62,20 @@
     "postcss-will-change": "^4.0.1"
   },
   "devDependencies": {
-    "@bring-it/npm": "^0.9.3",
-    "@nice-move/all-in-base": "^0.8.6",
+    "@bring-it/npm": "^0.9.6",
+    "@nice-move/all-in-base": "^0.8.10",
     "ava": "^8.0.1",
-    "eslint": "^10.5.0",
+    "eslint": "^9.39.5",
     "garou": "^0.9.21",
-    "postcss": "^8.5.15",
-    "prettier": "~3.8.4"
+    "postcss": "^8.5.20",
+    "prettier": "~3.9.5"
   },
   "peerDependencies": {
-    "postcss": "^8.5.6"
+    "postcss": "^8.5.21"
   },
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.34.5",
   "engines": {
-    "node": ">=20.18.0",
-    "pnpm": "^10.27.0"
+    "node": ">=20.18.0"
   },
   "publishConfig": {
     "access": "public",

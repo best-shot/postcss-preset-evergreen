@@ -1,6 +1,9 @@
 allowBuilds: {}
 
-configDependencies:
-  pnpm-plugin-nice-move: 0.3.0+sha512-RsmTZcxGja000NksrFr7g6n+bcAF0NQQSDaNcV+yaRlyB7EjLet7vPDCqpdg9js72B2rU0fF3kaL0nIuvRC1Rg==
-
 shamefullyHoist: true
+
+configDependencies:
+  pnpm-plugin-nice-move: 0.3.6+sha512-r29ZIK+qcmhe98Jv8hchUBCGnM37P73iDLlHGEZGzM00e9SGYYMaJ6qLeeUer1zakblBzIAbsn2F2IiF8UoZWQ==
+
+trustPolicyExclude:
+  - semver@6.3.1
