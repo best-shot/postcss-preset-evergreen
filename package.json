@@ -44,14 +44,14 @@
     "autoprefixer": "^10.5.4",
     "browserslist": "^4.28.6",
     "postcss-clamp": "^4.1.0",
-    "postcss-color-functional-notation": "^8.0.6",
+    "postcss-color-functional-notation": "^8.0.9",
     "postcss-color-hex-alpha": "^11.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-font-variant": "^5.0.0",
     "postcss-gap-properties": "^7.0.0",
     "postcss-logical": "^9.0.0",
     "postcss-media-minmax": "^5.0.0",
-    "postcss-nesting": "^14.0.0",
+    "postcss-nesting": "^14.0.1",
     "postcss-opacity-percentage": "^3.0.0",
     "postcss-overflow-shorthand": "^7.0.0",
     "postcss-page-break": "^3.0.4",
@@ -67,11 +67,11 @@
     "ava": "^8.0.1",
     "eslint": "^9.39.5",
     "garou": "^0.9.21",
-    "postcss": "^8.5.20",
+    "postcss": "^8.5.26",
     "prettier": "~3.9.5"
   },
   "peerDependencies": {
-    "postcss": "^8.5.21"
+    "postcss": "^8.5.26"
   },
   "packageManager": "pnpm@10.34.5",
   "engines": {
