@@ -63,12 +63,12 @@
   },
   "devDependencies": {
     "@bring-it/npm": "^0.9.6",
-    "@nice-move/all-in-base": "^0.8.10",
+    "@nice-move/all-in-base": "^0.8.14",
     "ava": "^8.0.1",
     "eslint": "^9.39.5",
     "garou": "^0.9.21",
     "postcss": "^8.5.20",
-    "prettier": "~3.9.5"
+    "prettier": "~3.9.6"
   },
   "peerDependencies": {
     "postcss": "^8.5.21"
