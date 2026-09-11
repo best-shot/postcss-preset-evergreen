@@ -41,7 +41,7 @@
     "@csstools/postcss-hwb-function": "^5.0.6",
     "@csstools/postcss-is-pseudo-class": "^6.0.0",
     "@csstools/postcss-oklab-function": "^5.0.6",
-    "autoprefixer": "^10.5.4",
+    "autoprefixer": "^10.5.5",
     "browserslist": "^4.28.6",
     "postcss-clamp": "^4.1.0",
     "postcss-color-functional-notation": "^8.0.6",
