@@ -4,8 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: sha256-MwH099djuwFrHvaq7FUJQWv8V0QGOgA16ySgx2/BFw0=
-
 importers:
 
   .:
@@ -14,8 +12,8 @@ importers:
         specifier: ^5.0.6
         version: 5.0.6(postcss@8.5.20)
       '@csstools/postcss-is-pseudo-class':
-        specifier: ^6.0.0
-        version: 6.0.0(postcss@8.5.20)
+        specifier: ^6.0.1
+        version: 6.0.1(postcss@8.5.20)
       '@csstools/postcss-oklab-function':
         specifier: ^5.0.6
         version: 5.0.6(postcss@8.5.20)
@@ -236,8 +234,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  '@csstools/postcss-is-pseudo-class@6.0.0':
-    resolution: {integrity: sha512-1Hdy/ykg9RDo8vU8RiM2o+RaXO39WpFPaIkHxlAEJFofle/lc33tdQMKhBk3jR/Fe+uZNLOs3HlowFafyFptVw==}
+  '@csstools/postcss-is-pseudo-class@6.0.1':
+    resolution: {integrity: sha512-JV0xha7XZD1sTKlwA4rkLSjDZHCilzHVMLOdlDJqlKjaAYvpE38HjCuzmAUx+ZPHWWwBEkL/jZRjMQfk830laA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       postcss: ^8.4
@@ -1307,6 +1305,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2847,7 +2846,7 @@ snapshots:
       '@csstools/utilities': 3.0.0(postcss@8.5.20)
       postcss: 8.5.20
 
-  '@csstools/postcss-is-pseudo-class@6.0.0(postcss@8.5.20)':
+  '@csstools/postcss-is-pseudo-class@6.0.1(postcss@8.5.20)':
     dependencies:
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.4)
       postcss: 8.5.20
