@@ -64,7 +64,7 @@
   "devDependencies": {
     "@bring-it/npm": "^0.9.6",
     "@nice-move/all-in-base": "^0.8.10",
-    "ava": "^8.0.1",
+    "ava": "^8.1.2",
     "eslint": "^9.39.5",
     "garou": "^0.9.21",
     "postcss": "^8.5.20",
